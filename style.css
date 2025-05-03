@@ -10,11 +10,18 @@
 }
 
 .container {
+  display: flex;
+  position: relative;
   text-align: center;
   margin-top: 0px;
   
   /* adjust the width to fit the screen */
   /* add some margin to center the content */
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
 }
 
 .countdown-timer {
@@ -87,12 +94,13 @@ input[type="date"] {
 }
 
 .containerinput {
-  display: flex ;
+  display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   align-content: center;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .inputcontainer {
@@ -110,9 +118,9 @@ input[type="date"] {
 
 html {
   position: absolute;
-  left: -10vw;
-  display: flex;
   height: auto;
   width: -webkit-fill-available;
   justify-content: center;
+  margin: 5vw;
+  text-align: -webkit-center;
 }
