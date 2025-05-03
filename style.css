@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap'); body {
+  background-color: #ff69b4;
+  /* pink background */
+  font-family: 'Dangrek', cursive;
+  display: flex;
+  height: 100vh;
+  align-content: center;
+  align-items: flex-start;
+}
+
+.container {
+  text-align: center;
+  margin-top: 0px;
+  width: 100%;
+  /* adjust the width to fit the screen */
+  /* add some margin to center the content */
+}
+
+.countdown-timer {
+  font-size: 10.5rem;
+  /* increase the font size for better readability */
+  font-weight: bold;
+  color: #ffffff;
+  /* white text */
+  margin: 5px;
+}
+
+.elapsed-time {
+  font-size: 5rem;
+  color: #ffffff;
+  /* white text */
+  margin: 5px;
+}
+
+.progress-bar {
+  width: 75%;
+  height: 30px;
+  background-color: #ffffff;
+  /* white background */
+  border-radius: 10px;
+  margin: 20px auto;
+  border: 1px solid #ff69b4;
+  /* pink border */
+  overflow: hidden;
+}
+
+.progress {
+  width: 0%;
+  height: 100%;
+  background-color: #ff69b4;
+  /* pink progress bar */
+  border-radius: 0px;
+}
+
+input[type="time"] {
+  width: 50%;
+  height: 30px;
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffffff;
+  /* white input background */
+  font-family: 'Dangrek', cursive;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* add some shadow to the inputs */
+}
+
+input[type="date"] {
+  width: 50%;
+  height: 30px;
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffffff;
+  /* white input background */
+  font-family: 'Dangrek', cursive;
+}
+
+.progress-bar {
+  border: 7px solid #b72970;
+  /* thick dark pink border */
+}
+
+.containerinput {
+  display: flex ;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputcontainer {
+  display: flex ;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputcontainer {
+  width: 100%;
+}
+
+html {
+  height: 100vh;
+  width: 100vw;
+}
